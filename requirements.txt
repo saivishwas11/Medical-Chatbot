@@ -1,0 +1,12 @@
+langchain
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
+sentence-transformers==2.2.2 ##opensource embedding model to generate vector embedding
+## sentence-transformers==2.2.2 model uses HF hub to download the model
+langchain-pinecone
+langchain-community
+langchain-experimental
+google-generativeai
+-e .
